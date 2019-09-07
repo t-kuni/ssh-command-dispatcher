@@ -9,7 +9,7 @@ Add following step on `cloudbuild.yaml`
 
 ```yaml
 steps:
-  - name: 'gcr.io/t-kuni/ssh-command-dispatcher:v1.0.0'
+  - name: 'gcr.io/t-kuni/ssh-command-dispatcher:1.0.0'
     args: ['echo', 'this command is executed on remote host.']
     env:
       - USER=${_USER}
