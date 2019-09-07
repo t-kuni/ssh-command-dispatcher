@@ -1,0 +1,9 @@
+version: '3'
+services:
+  ssh:
+    build: ssh
+    environment:
+      USER: ${USER}
+      HOST: ${HOST}
+      PRIVATE_KEY: |-
+        ${PRIVATE_KEY}
