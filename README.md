@@ -19,7 +19,7 @@ steps:
 
 Add variables on trigger edit page in cloud build.
 
-![readme-img1.png](./readme-img1.png)
+![readme-img1.png](https://github.com/t-kuni/ssh-command-dispatcher/blob/master/readme-img1.png)
 
 **Note**: value of `PRIVATE_KEY` is need to replace LF to `\n` because variables of cloud build is can't include LF.   
 
