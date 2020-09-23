@@ -23,6 +23,10 @@ Add variables on trigger edit page in cloud build.
 
 **Note**: value of `PRIVATE_KEY` is need to replace LF to `\n` because variables of cloud build is can't include LF.   
 
+```sh
+cat xxx.pem | tr '\n' '_' | sed 's/_/\\n/g'
+```
+
 ## Development
 
 ### Clone
